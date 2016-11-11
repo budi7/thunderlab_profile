@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^4.2.0",
+    "yargs": "^4.6.0"
+  },
+  "name": "thunderlab",
+  "version": "1.0.0",
+  "description": "Thunderlab Company Profile",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Budi Purnomo",
+  "license": "ISC"
+}
