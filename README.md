@@ -11,5 +11,11 @@ npm install
 
 ###3. run gulp watch
 
-## Framework
-This project using jigsaw static web generator (http://jigsaw.tighten.co/docs)
+## Required
+1. This project using jigsaw static web generator (http://jigsaw.tighten.co/docs). Require jigsaw on your composer.
+
+2. Composser
+
+3. node 
+
+4. laravel gulp
