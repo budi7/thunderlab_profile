@@ -9,7 +9,9 @@ npm install --global gulp
 
 npm install
 
-###3. run gulp watch
+###3. run jigsaw build
+
+###4. run gulp watch
 
 ## Required
 1. This project using jigsaw static web generator (http://jigsaw.tighten.co/docs). Require jigsaw on your composer.
