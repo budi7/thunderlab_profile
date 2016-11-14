@@ -3,7 +3,7 @@
 	  <a class="navbar-brand" href="#">
 	    <img src="/images/logo.png" alt="Thunderlab Indonesia">
 	  </a>
-	  <ul class="nav navbar-nav pull-xs-right" style="margin-right: -1.5rem;">
+	  <ul class="nav navbar-nav float-xs-right" style="margin-right: -1.5rem;">
 	    <li id="home" class="nav-item @yield(header_home)">
 	      <a class="nav-link" href="/">
 	      	HOME
