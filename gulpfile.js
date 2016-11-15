@@ -13,8 +13,8 @@ elixir(function(mix) {
         .copy('source/fonts/', 'build_local/fonts/')
         .scripts([
                 '../js/jquery.js',
-                '../js/bootstrap.min.js',
                 '../js/tether.min.js',
+                '../js/bootstrap.min.js',
             ], 'source/js/main.js')    
         .exec('jigsaw build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
         .browserSync({

@@ -1,28 +1,11 @@
 @extends('_layouts.master')
 
 @section('body')
-<style>
-    .showcase > img{
-        filter: grayscale(100%);
-        transition: .5s ease-in-out;
-        -webkit-filter: grayscale(100%);
-        -webkit-transition: .5s ease-in-out;
-        -moz-filter: grayscale(100%);
-        -moz-transition: .5s ease-in-out;
-        -o-filter: grayscale(100%);
-        -o-transition: .5s ease-in-out;         
-    }
-    .showcase:hover > img{
-        filter: grayscale(0%);
-        transition: .5s ease-in-out;
-        -webkit-filter: grayscale(0%);
-        -webkit-transition: .5s ease-in-out;
-        -moz-filter: grayscale(0%);
-        -moz-transition: .5s ease-in-out;
-        -o-filter: grayscale(0%);
-        -o-transition: .5s ease-in-out;   
-    }    
+<style>   
 </style>
+
+    <!-- spacer -->
+    <div style="background-color: black;height: 81px;"></div>
 
 	@include('_partials/paralax', [
 		'name' 		=> 'home',

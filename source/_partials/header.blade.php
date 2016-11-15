@@ -32,6 +32,3 @@
 	  </ul>
 	</div>
 </nav>
-
-<!-- spacer -->
-<div style="background-color: black;height: 81px;"></div>
