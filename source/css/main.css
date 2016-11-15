@@ -1732,7 +1732,12 @@ fieldset[disabled] a.btn {
   color: #000;
   background-color: white;
   border-color: #000;
-  border-width: 2px; }
+  border-width: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  box-shadow: inset 0 0 0 0 #000;
+  transition: all ease 0.8s;
+  border-radius: 2px; }
   .btn-primary:hover {
     color: black;
     background-color: white;
@@ -1760,6 +1765,10 @@ fieldset[disabled] a.btn {
   .btn-primary.disabled:hover, .btn-primary:disabled:hover {
     background-color: white;
     border-color: #000; }
+
+.btn-primary:hover {
+  box-shadow: inset 0 100px 0 0 #000;
+  color: #FFF; }
 
 .btn-secondary {
   color: #373a3c;
@@ -2123,7 +2132,8 @@ fieldset[disabled] a.btn {
   padding: 0.75rem 1.5rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
-  padding: 1rem 2.5rem; }
+  padding: 1rem 2.5rem;
+  font-size: 1rem; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
@@ -3021,9 +3031,9 @@ tbody.collapse.in {
   background-color: rgba(0, 0, 0, 0.9);
   color: white; }
   .navbar-dark .navbar-brand {
-    color: #fffd56; }
+    color: #FFFD56; }
     .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-      color: #fffd56; }
+      color: #FFFD56; }
   .navbar-dark .navbar-nav .nav-link {
     color: white; }
     .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
@@ -3038,7 +3048,7 @@ tbody.collapse.in {
   .navbar-dark .navbar-nav .nav-link.active,
   .navbar-dark .navbar-nav .nav-link.active:focus,
   .navbar-dark .navbar-nav .nav-link.active:hover {
-    color: #fffd56; }
+    color: #FFFD56; }
   .navbar-dark .navbar-toggler {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     border-color: rgba(255, 255, 255, 0.1); }
@@ -4284,7 +4294,7 @@ button.close {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 15%;
+  width: 10%;
   font-size: 20px;
   color: #fff;
   text-align: center;
@@ -4344,14 +4354,14 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: transparent;
+    background-color: #fff;
     border: 1px solid #fff;
     border-radius: 10px; }
   .carousel-indicators .active {
+    background-color: transparent;
     width: 12px;
     height: 12px;
-    margin: 0;
-    background-color: #fff; }
+    margin: 0; }
 
 .carousel-caption {
   position: absolute;
@@ -4383,7 +4393,7 @@ button.close {
     left: 20%;
     padding-bottom: 30px; }
   .carousel-indicators {
-    bottom: 20px; } }
+    bottom: 50px; } }
 
 .align-baseline {
   vertical-align: baseline !important; }
@@ -7373,5 +7383,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .pt-xxl {
   padding-top: 50px; }
+
+.panel-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.panel-section .title {
+  padding-bottom: 5rem; }
 
 /*# sourceMappingURL=main.css.map */

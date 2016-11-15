@@ -2,13 +2,26 @@
 
 @section('body')
 <style>
-    .panel-section{
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+    .showcase > img{
+        filter: grayscale(100%);
+        transition: .5s ease-in-out;
+        -webkit-filter: grayscale(100%);
+        -webkit-transition: .5s ease-in-out;
+        -moz-filter: grayscale(100%);
+        -moz-transition: .5s ease-in-out;
+        -o-filter: grayscale(100%);
+        -o-transition: .5s ease-in-out;         
     }
-    .panel-section .title{
-        padding-bottom: 5rem;
-    }
+    .showcase:hover > img{
+        filter: grayscale(0%);
+        transition: .5s ease-in-out;
+        -webkit-filter: grayscale(0%);
+        -webkit-transition: .5s ease-in-out;
+        -moz-filter: grayscale(0%);
+        -moz-transition: .5s ease-in-out;
+        -o-filter: grayscale(0%);
+        -o-transition: .5s ease-in-out;   
+    }    
 </style>
 
 	@include('_partials/paralax', [
@@ -30,58 +43,52 @@
                 </div>
                 <div class="row pb-m">
                     <div class="col-md-4 col-sm-4 col-xs-12 pb-m text-xs-center">
-                        <img src="/images/gopego_background.jpg" alt="gopego.com" class="img-fluid">
+                        <a href="#" class="showcase">
+                            <img src="/images/gopego_background.jpg" alt="gopego.com" class="img-fluid">
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12 pb-m text-xs-center">
-                        <img src="/images/capcus_background.jpg" alt="capcus.id" class="img-fluid">
+                        <a href="#" class="showcase">
+                            <img src="/images/capcus_background.jpg" alt="capcus.id" class="img-fluid">
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12 pb-m text-xs-center">
-                        <img src="/images/balin_background.jpg" alt="balin.id" class="img-fluid">
+                        <a href="#" class="showcase">
+                            <img src="/images/balin_background.jpg" alt="balin.id" class="img-fluid">
+                        </a>
                     </div>
                 </div>
                 <div class="row pt-xl pb-s">
                     <div class="col-md-12 text-xs-center">
-                        <a href="#" class="btn btn-primary btn-lg">MORE PORTOFOLIO</a>
+                        <a href="/portofolio" class="btn btn-primary btn-lg">MORE PORTOFOLIO</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img src="http://wallpapercave.com/wp/yJluwNX.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img src="https://wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1920x1080.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img src="http://wallpapercave.com/wp/yJluwNX.jpg" alt="Third slide">
-            </div>
-          </div>
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="icon-prev" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="icon-next" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+       
 
-    @include('_partials/paralax', [
-        'name'      => 'tes',
+    @include('_partials/paralax_slider', [
+        'name'      => 'testy',
         'url'       => '/images/testimonial.jpg',
-        'title'     => '<strong>THUNDERLAB INDONESIA</strong>',
-        'title_color' => 'white',
-        'subtitle'  => 'DO MORE THINGS SIMPLER',
-        'subtitle_color' => 'white',
+        'content'   =>  [
+                            0   =>  [
+                                        'content'   => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                                        'name'      => 'John Dory',
+                                        'company'   => 'CEO Lipsum'
+                                    ],
+                            1   =>  [
+                                        'content'   => '2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                                        'name'      => 'John Dory',
+                                        'company'   => 'CEO Lipsum'
+                                    ],
+                            2   =>  [
+                                        'content'   => '2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                                        'name'      => 'John Dory',
+                                        'company'   => 'CEO Lipsum'
+                                    ],                                    
+                        ],
     ])
 @stop
 

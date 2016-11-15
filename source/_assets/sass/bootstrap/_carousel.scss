@@ -91,7 +91,7 @@
   top: 0;
   bottom: 0;
   left: 0;
-  width: $carousel-control-width;
+  width: 10%;
   font-size: $carousel-control-font-size;
   color: $carousel-control-color;
   text-align: center;
@@ -176,21 +176,24 @@
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
+
+    background-color: $carousel-indicator-active-bg;
+
+    border: 1px solid $carousel-indicator-border-color;
+    border-radius: $carousel-indicator-size;
+  }
+
+  .active {
     // IE9 hack for event handling
     //
     // Internet Explorer 9 does not properly handle clicks on elements with a `background-color` of `transparent`,
     // so we use `rgba(0,0,0,0)` instead since it's a non-buggy equivalent.
     // See https://developer.mozilla.org/en-US/docs/Web/Events/click#Internet_Explorer
     background-color: rgba(0,0,0,0); // IE9
-    border: 1px solid $carousel-indicator-border-color;
-    border-radius: $carousel-indicator-size;
-  }
 
-  .active {
     width: $carousel-indicator-active-size;
     height: $carousel-indicator-active-size;
     margin: 0;
-    background-color: $carousel-indicator-active-bg;
   }
 }
 
@@ -248,6 +251,6 @@
 
   // Move up the indicators
   .carousel-indicators {
-    bottom: 20px;
+    bottom: 50px;
   }
 }

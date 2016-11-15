@@ -10,12 +10,16 @@
 
     }
     .footer .social{
-        color:white;
+        color:white;        
         padding-left: 1.25rem;
         padding-right: 1.25rem;
     }
+    .footer .social:hover{
+        color:#fffd56;
+    }
+
     .footer .copyright{
-        margin-top: -0.5rem;
+        margin-top: -1rem;
         font-size: 12px;
     }
 </style>
