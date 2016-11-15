@@ -31,6 +31,8 @@
         'title_color' => 'white',
         'subtitle'  => 'DO MORE THINGS SIMPLER',
         'subtitle_color' => 'white',
+        'height'    => '675px',
+        'top_text_spacer' => '(675px - 81px)/2 - 2.75rem'
 	])
 
     <div class="container-fluid">

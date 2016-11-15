@@ -8,12 +8,12 @@
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	  height: calc(675px - 81px);
+	  height: calc({!! $height !!} - 81px);
 	}
 	.content-space-{{$name}} .cover{
-	  height: calc(675px - 81px);
+	  height: calc({!! $height !!} - 81px);
 	  background-color: rgba(0,0,0,.8);
-	  padding-top: calc((675px - 81px)/2 - 2.75rem);
+	  padding-top: calc({!! $top_text_spacer !!});
 	}
 	.content-space-{{$name}} h1{
 		font-weight: 200;

@@ -11,6 +11,8 @@
         'title_color' => 'white',
         'subtitle'  => ' ',
         'subtitle_color' => 'white',
+        'height'    => '425px',
+        'top_text_spacer' => '(425px - 81px)/2'
 	])
 
     <div class="container-fluid">
