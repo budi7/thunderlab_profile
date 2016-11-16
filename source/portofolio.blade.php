@@ -6,7 +6,7 @@
 
 	@include('_partials/paralax', [
 		'name' 		=> 'portofolio',
-        'url'       => '/images/home.jpg',
+        'url'       => '/images/portofolio.jpg',
         'title'     => 'PORTOFOLIO',
         'title_color' => 'white',
         'subtitle'  => ' ',
