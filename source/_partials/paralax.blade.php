@@ -22,6 +22,7 @@
 	.content-space-{{$name}} h3{
 		font-weight: 100;
 		letter-spacing: 0.2rem;
+		font-size: 1rem;
 		color: {{ $title_color }};
 	}	
 </style>
