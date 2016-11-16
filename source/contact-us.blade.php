@@ -35,7 +35,7 @@
                         <div class="form-group">
                             <textarea class="form-control" id="message" rows="7" placeholder="Your Message"></textarea>
                         </div>
-                        <div class="mb-l text-xs-right pt-s">
+                        <div class="text-xs-right pt-s">
                             <a href="#" class="btn btn-primary">SEND MESSAGE</a>
                         </div>
                     </div>

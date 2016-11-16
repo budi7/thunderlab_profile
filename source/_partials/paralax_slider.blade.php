@@ -25,10 +25,10 @@
   } 
   @media screen and (min-width: 501px) and (max-width: 750px) {
     .content-space-{{$name}} {
-      height: calc(500px + 25px - 81px);
+      height: calc(500px + 50px - 81px);
     }
     .content-space-{{$name}} .cover{
-      height: calc(500px + 25px - 81px);
+      height: calc(500px + 50px - 81px);
     }    
   }  
   @media screen and (max-width: 500px) {

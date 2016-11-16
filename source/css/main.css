@@ -4393,7 +4393,13 @@ button.close {
   .carousel-caption {
     right: 20%;
     left: 20%;
-    padding-bottom: 30px; }
+    padding-bottom: 30px; } }
+
+@media screen and (min-width: 501px) and (max-width: 750px) {
+  .carousel-indicators {
+    bottom: 35px; } }
+
+@media screen and (max-width: 500px) {
   .carousel-indicators {
     bottom: 50px; } }
 
@@ -7386,6 +7392,51 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .pt-xxl {
   padding-top: 50px; }
 
+/*Navbar*/
+.custom-navbar-breakpoint {
+  display: block; }
+
+.navbar-toggler {
+  color: white;
+  padding-top: 1.9rem;
+  padding-bottom: 2.8rem;
+  border-color: transparent;
+  margin-right: -0.9rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  background-image: none !important;
+  border-color: transparent !important;
+  transition: color 1.5s ease-out; }
+
+.navbar-toggler.active {
+  color: #FFFD56;
+  transition: color 1.5s ease-out; }
+
+.navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus {
+  outline: none; }
+
+.nav-mobile-item {
+  width: 100vw !important;
+  text-align: center !important;
+  margin-left: 0 !important; }
+
+.navbar-mobile {
+  width: 100vw;
+  display: none; }
+
+@media screen and (min-width: 880px) {
+  .custom-navbar-breakpoint {
+    display: none; }
+  .navbar-desktop {
+    display: block; }
+  .navbar-mobile {
+    display: none !important; } }
+
+@media screen and (max-width: 879px) {
+  .navbar-desktop {
+    display: none; } }
+
+/*Panel*/
 .panel-section {
   padding-top: 5rem;
   padding-bottom: 5rem; }
@@ -7393,6 +7444,16 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .panel-section .title {
   padding-bottom: 5rem; }
 
+.panel-wrap {
+  padding-left: 12%;
+  padding-right: 12%; }
+
+@media screen and (max-width: 767px) {
+  .panel-wrap {
+    padding-left: 0;
+    padding-right: 0; } }
+
+/*Showcase*/
 .showcase > img {
   filter: grayscale(100%);
   transition: .5s ease-in-out;
@@ -7412,14 +7473,5 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   -moz-transition: .5s ease-in-out;
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out; }
-
-.panel-wrap {
-  padding-left: 12%;
-  padding-right: 12%; }
-
-@media screen and (max-width: 767px) {
-  .panel-wrap {
-    padding-left: 0;
-    padding-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
