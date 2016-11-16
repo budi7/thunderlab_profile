@@ -191,9 +191,11 @@
     // See https://developer.mozilla.org/en-US/docs/Web/Events/click#Internet_Explorer
     background-color: rgba(0,0,0,0); // IE9
 
-    width: $carousel-indicator-active-size;
-    height: $carousel-indicator-active-size;
-    margin: 0;
+    border: 1px solid $carousel-indicator-border-color;
+    border-radius: $carousel-indicator-size;
+    width: $carousel-indicator-size;
+    height: $carousel-indicator-size;    
+    margin: 1px;
   }
 }
 

@@ -4359,9 +4359,11 @@ button.close {
     border-radius: 10px; }
   .carousel-indicators .active {
     background-color: transparent;
-    width: 12px;
-    height: 12px;
-    margin: 0; }
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    margin: 1px; }
 
 .carousel-caption {
   position: absolute;
@@ -7390,5 +7392,25 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .panel-section .title {
   padding-bottom: 5rem; }
+
+.showcase > img {
+  filter: grayscale(100%);
+  transition: .5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .5s ease-in-out; }
+
+.showcase:hover > img {
+  filter: grayscale(0%);
+  transition: .5s ease-in-out;
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out; }
 
 /*# sourceMappingURL=main.css.map */

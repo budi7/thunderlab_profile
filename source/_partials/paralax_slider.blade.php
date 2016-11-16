@@ -76,9 +76,9 @@
         </div>
         @endforeach
         <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
           <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
         </ol>        
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
           <span class="icon-prev" aria-hidden="true"></span>
