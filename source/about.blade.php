@@ -1,5 +1,5 @@
 @extends('_layouts.master')
-
+    
 @section('body')
 <style>
 </style>
@@ -17,9 +17,9 @@
 
     <div class="container-fluid">
         <div class="col-md-12">
-            <div class="panel-section">
+            <div class="panel-section panel-wrap">
                 <div class="row">
-                    <div class="col-md-12 text-xs-center" style="padding: 0 15%;">
+                    <div class="col-md-12 text-xs-center">
                         <p>
                         	After 10 years helping over 100 satisfied corporates to achieve their dreams through technology, we are left with big regrets. Regrets of not being able to help and serve more people, regrets that our services are too exclusive for certain markets.
                         </p>

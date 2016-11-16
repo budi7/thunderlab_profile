@@ -1439,34 +1439,34 @@ pre {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 0.75rem 0.75rem;
   font-size: 1rem;
   line-height: 1.25;
   color: #55595c;
-  background-color: #fff;
+  background-color: #eee;
   background-image: none;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem; }
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2px; }
   .form-control::-ms-expand {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
     color: #55595c;
-    background-color: #fff;
+    background-color: #eee;
     border-color: #66afe9;
     outline: none; }
   .form-control::-webkit-input-placeholder {
-    color: #999;
+    color: #6A6A6A;
     opacity: 1; }
   .form-control::-moz-placeholder {
-    color: #999;
+    color: #6A6A6A;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #999;
+    color: #6A6A6A;
     opacity: 1; }
   .form-control::placeholder {
-    color: #999;
+    color: #6A6A6A;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #eceeef;
@@ -1475,19 +1475,19 @@ pre {
     cursor: not-allowed; }
 
 select.form-control:not([size]):not([multiple]) {
-  height: calc(2.5rem - 2px); }
+  height: calc(3rem - 2px); }
 
 select.form-control:focus::-ms-value {
   color: #55595c;
-  background-color: #fff; }
+  background-color: #eee; }
 
 .form-control-file,
 .form-control-range {
   display: block; }
 
 .col-form-label {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   margin-bottom: 0; }
 
 .col-form-label-lg {
@@ -1501,14 +1501,14 @@ select.form-control:focus::-ms-value {
   font-size: 0.875rem; }
 
 .col-form-legend {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   margin-bottom: 0;
   font-size: 1rem; }
 
 .form-control-static {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   line-height: 1.25;
   border: solid transparent;
   border-width: 1px 0; }
@@ -1545,7 +1545,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   height: 3.1666666667rem; }
 
 .form-group {
-  margin-bottom: 1rem; }
+  margin-bottom: 1.5rem; }
 
 .form-text {
   display: block;
@@ -1594,8 +1594,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-control-danger {
   padding-right: 2.25rem;
   background-repeat: no-repeat;
-  background-position: center right 0.625rem;
-  background-size: 1.25rem 1.25rem; }
+  background-position: center right 0.75rem;
+  background-size: 1.5rem 1.5rem; }
 
 .has-success .form-control-feedback,
 .has-success .form-control-label,
@@ -1706,7 +1706,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 0.25rem; }
@@ -2318,7 +2318,7 @@ tbody.collapse.in {
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
 .btn-group .btn-group + .btn-group {
-  margin-left: -1px; }
+  margin-left: 0px; }
 
 .btn-toolbar {
   margin-left: -0.5rem; }
@@ -2411,7 +2411,7 @@ tbody.collapse.in {
 .btn-group-vertical > .btn + .btn-group,
 .btn-group-vertical > .btn-group + .btn,
 .btn-group-vertical > .btn-group + .btn-group {
-  margin-top: -1px;
+  margin-top: 0px;
   margin-left: 0; }
 
 .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
@@ -2475,7 +2475,7 @@ tbody.collapse.in {
   vertical-align: middle; }
 
 .input-group-addon {
-  padding: 0.5rem 0.75rem;
+  padding: 0.75rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: normal;
@@ -2483,7 +2483,7 @@ tbody.collapse.in {
   color: #55595c;
   text-align: center;
   background-color: #eceeef;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 0px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; }
   .input-group-addon.form-control-sm,
   .input-group-sm > .input-group-addon,
@@ -2534,16 +2534,16 @@ tbody.collapse.in {
   .input-group-btn > .btn {
     position: relative; }
     .input-group-btn > .btn + .btn {
-      margin-left: -1px; }
+      margin-left: 0px; }
     .input-group-btn > .btn:focus, .input-group-btn > .btn:active, .input-group-btn > .btn:hover {
       z-index: 3; }
   .input-group-btn:not(:last-child) > .btn,
   .input-group-btn:not(:last-child) > .btn-group {
-    margin-right: -1px; }
+    margin-right: 0px; }
   .input-group-btn:not(:first-child) > .btn,
   .input-group-btn:not(:first-child) > .btn-group {
     z-index: 2;
-    margin-left: -1px; }
+    margin-left: 0px; }
     .input-group-btn:not(:first-child) > .btn:focus, .input-group-btn:not(:first-child) > .btn:active, .input-group-btn:not(:first-child) > .btn:hover,
     .input-group-btn:not(:first-child) > .btn-group:focus,
     .input-group-btn:not(:first-child) > .btn-group:active,
@@ -2619,7 +2619,7 @@ tbody.collapse.in {
 .custom-select {
   display: inline-block;
   max-width: 100%;
-  height: calc(2.5rem - 2px);
+  height: calc(3rem - 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
   padding-right: 0.75rem \9;
   color: #55595c;
@@ -2627,7 +2627,7 @@ tbody.collapse.in {
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='#333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
   background-image: none \9;
   background-size: 8px 10px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 0px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
   -moz-appearance: none;
   -webkit-appearance: none; }
@@ -2636,7 +2636,7 @@ tbody.collapse.in {
     outline: none; }
     .custom-select:focus::-ms-value {
       color: #55595c;
-      background-color: #fff; }
+      background-color: #eee; }
   .custom-select:disabled {
     color: #818a91;
     cursor: not-allowed;
@@ -7412,5 +7412,14 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   -moz-transition: .5s ease-in-out;
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out; }
+
+.panel-wrap {
+  padding-left: 12%;
+  padding-right: 12%; }
+
+@media screen and (max-width: 767px) {
+  .panel-wrap {
+    padding-left: 0;
+    padding-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
