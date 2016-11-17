@@ -20,24 +20,29 @@
             <div class="panel-section panel-wrap">
                 <div class="row">
                     <div class="col-md-8 col-sm-8 col-xs-12">
-                        <div class="mb-l">
-                        	<h5>Get in Touch</h5>
-                        	<p>
-                        		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        	</p>
-                        </div>
-	                    <div class="form-group">
-                            <input type="text" class="form-control" id="nama" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                        </div>      
-                        <div class="form-group">
-                            <textarea class="form-control" id="message" rows="7" placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="text-xs-right pt-s">
-                            <a href="#" class="btn btn-primary">SEND MESSAGE</a>
-                        </div>
+                        <form id="gform" method="POST" class="pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbzpXoJgF5H7q0vfD-hB-JfQLEgyr633ah44qfqVnSlopgEJioCD/exec">
+                            <div class="mb-l">
+                            	<h5>Get in Touch</h5>
+                            	<p>
+                            		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            	</p>
+                            </div>
+    	                    <div class="form-group">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input id="email" name="email" type="email" value="" required placeholder="Email" class="form-control"/>                            
+                            </div>      
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="7" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="text-xs-right pt-s">
+                                <!-- <input type="submit" class="btn btn-primary submit" value="SEND MESSAGE"> -->
+                                <button class="btn btn-primary submit">
+                                    SEND MESSAGE
+                                </button>                                
+                            </div>
+                        </form>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                     	<h5 class="mb-m">Contact Info</h5>
@@ -63,4 +68,7 @@
 
 @section('header_contact')
 	active
+@stop
+
+@section('scripts')
 @stop
