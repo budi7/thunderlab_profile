@@ -19,11 +19,23 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-8 col-xs-12">
                         <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzpXoJgF5H7q0vfD-hB-JfQLEgyr633ah44qfqVnSlopgEJioCD/exec">
+                            <div id="alert_success" class="alert alert-success mb-m hidden" role="alert">
+                                <button type="button" class="close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>                            
+                                <strong>Thank You!</strong> We will follow up your message soon.
+                            </div>   
+                            <div id="alert_fail" class="alert alert-danger mb-m hidden" role="alert">
+                                <button type="button" class="close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>                            
+                                <strong>Sorry, </strong> an error occured when processing your message. Please try again or contact us directly.
+                            </div>                                                      
                             <div class="mb-l">
-                            	<h5>Get in Touch</h5>
-                            	<p>
-                            		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            	</p>
+                                <h5>Get in Touch</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                </p>
                             </div>
     	                    <div class="form-group">
                                 <input type="text" class="form-control" name="name" required id="name" placeholder="Name">
@@ -87,7 +99,7 @@
              data  : form.serialize(),
              success: function(response){
                 // show message
-
+                $('#alert_success').removeClass('hidden');
 
                 // clear inputs
                 $('#name').val('');
@@ -98,9 +110,15 @@
                 $('#gform').find('button').removeClass('btn-loading');
                 $('#gform').find('button').find('.fa').removeClass('fa-circle-o-notch fa-spin');        
                 $('#gform').find('button').find('.fa').addClass('fa-paper-plane');
+             },
+             error: function(response){
+                $('#alert_fail').removeClass('hidden');
              }
         });
         
         return false;
-     });
+    });
+    $('.close').on('click', function(e) {
+        $(this).parent().addClass('hidden');
+    });
 @stop

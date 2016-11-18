@@ -7392,6 +7392,10 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .pt-xxl {
   padding-top: 50px; }
 
+/*Util*/
+.hidden {
+  display: none; }
+
 /*Navbar*/
 .custom-navbar-breakpoint {
   display: block; }
