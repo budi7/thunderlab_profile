@@ -25,7 +25,25 @@
                     </div>
                 </div>
 
-                @include('_partials/panel_showcase')
+                @include('_partials/panel_showcase',[
+                    'datas' =>  [
+                                    '0'   =>  [
+                                                'name'  => 'Gopego.com',
+                                                'img'   => '/images/gopego_background.jpg',
+                                                'url'   => 'gopego.com',
+                                            ],
+                                    '1'   =>  [
+                                                'name'  => 'Capcus.id',
+                                                'img'   => '/images/capcus_background.jpg',
+                                                'url'   => 'capcus.id',
+                                            ],   
+                                    '2'   =>  [
+                                                'name'  => 'Balin.id',
+                                                'img'   => '/images/balin_background.jpg',
+                                                'url'   => 'balin.id',
+                                            ],
+                                ]
+                ])
                 
                 <div class="row pt-xl pb-s">
                     <div class="col-md-12 text-xs-center">
