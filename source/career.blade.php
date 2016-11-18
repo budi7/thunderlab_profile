@@ -1,40 +1,6 @@
 @extends('_layouts.master')
 
 @section('body')
-<style>
-    .container-title{
-        background-color: #eee;
-    }
-    .span-show{
-        padding-left: 2rem;
-    }
-    .span-show > a{
-       color: #373a3c;
-    }    
-    .job-sub-title{
-        text-transform: uppercase;
-    }
-    .colapse_career .active{
-        transform: rotateX(180deg);
-    }
-
-    @media screen and (max-width: 575px) {
-        .pb-xs-hide{
-            padding-bottom: 0px;
-        }
-        .pt-xs-hide{
-            padding-top: 0px;
-        }
-        .responsive-subtitle{
-            font-size: 1rem;
-            font-weight: 100;
-        }
-        .responsive-subtitle .toggler{
-            font-weight: bold;
-            margin-top: -15px;
-        }
-    }
-</style>
 
 	@include('_partials/paralax', [
 		'name' 		=> 'portofolio',

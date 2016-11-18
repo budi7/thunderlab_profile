@@ -1,8 +1,6 @@
 @extends('_layouts.master')
 
 @section('body')
-<style>
-</style>
 
 	@include('_partials/paralax', [
 		'name' 		=> 'portofolio',
@@ -18,23 +16,7 @@
     <div class="container-fluid">
         <div class="col-md-12">
             <div class="panel-section">
-                <div class="row pb-m">
-                    <div class="col-md-4 col-sm-4 col-xs-12 pb-m text-xs-center">
-                        <a href="#" class="showcase">
-                            <img src="/images/gopego_background.jpg" alt="gopego.com" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 pb-m text-xs-center">
-                        <a href="#" class="showcase">
-                            <img src="/images/capcus_background.jpg" alt="capcus.id" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 pb-m text-xs-center">
-                        <a href="#" class="showcase">
-                            <img src="/images/balin_background.jpg" alt="balin.id" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
+                @include('_partials/panel_showcase')
             </div>
         </div>
     </div>
@@ -45,5 +27,4 @@
 @stop
 
 @section('scripts')
-
 @stop

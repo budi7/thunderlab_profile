@@ -7474,4 +7474,43 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out; }
 
+/* buttons */
+.btn-loading, .btn-loading:hover, .btn-loading:focus, .btn-loading:active {
+  box-shadow: inset 0 100px 0 0 #000; }
+
+.btn-loading.btn-primary {
+  color: #777 !important; }
+
+.btn-loading.btn-primary .fa {
+  color: white !important; }
+
+/*per page*/
+/*career*/
+.container-title {
+  background-color: #eee; }
+
+.span-show {
+  padding-left: 2rem; }
+
+.span-show > a {
+  color: #373a3c; }
+
+.job-sub-title {
+  text-transform: uppercase; }
+
+.colapse_career .active {
+  transform: rotateX(180deg); }
+
+@media screen and (max-width: 575px) {
+  .pb-xs-hide {
+    padding-bottom: 0px; }
+  .pt-xs-hide {
+    padding-top: 0px; }
+  .responsive-subtitle {
+    font-size: 1rem;
+    font-weight: 100; }
+  .responsive-subtitle .toggler {
+    font-weight: bold;
+    margin-top: -15px; } }
+
 /*# sourceMappingURL=main.css.map */

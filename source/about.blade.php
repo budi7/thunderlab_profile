@@ -1,8 +1,6 @@
 @extends('_layouts.master')
     
 @section('body')
-<style>
-</style>
 
 	@include('_partials/paralax', [
 		'name' 		=> 'about',
@@ -40,4 +38,7 @@
 
 @section('header_about')
 	active
+@stop
+
+@section('scripts')
 @stop

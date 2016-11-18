@@ -1,8 +1,6 @@
 @extends('_layouts.master')
 
 @section('body')
-<style>
-</style>
 
 	@include('_partials/paralax', [
 		'name' 		=> 'portofolio',
@@ -20,7 +18,7 @@
             <div class="panel-section panel-wrap">
                 <div class="row">
                     <div class="col-md-8 col-sm-8 col-xs-12">
-                        <form id="gform" method="POST" class="pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbzpXoJgF5H7q0vfD-hB-JfQLEgyr633ah44qfqVnSlopgEJioCD/exec">
+                        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzpXoJgF5H7q0vfD-hB-JfQLEgyr633ah44qfqVnSlopgEJioCD/exec">
                             <div class="mb-l">
                             	<h5>Get in Touch</h5>
                             	<p>
@@ -28,18 +26,18 @@
                             	</p>
                             </div>
     	                    <div class="form-group">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                <input type="text" class="form-control" name="name" required id="name" placeholder="Name">
                             </div>
                             <div class="form-group">
                                 <input id="email" name="email" type="email" value="" required placeholder="Email" class="form-control"/>                            
                             </div>      
                             <div class="form-group">
-                                <textarea class="form-control" name="message" id="message" rows="7" placeholder="Your Message"></textarea>
+                                <textarea class="form-control" name="message" id="message" required rows="7" placeholder="Your Message"></textarea>
                             </div>
                             <div class="text-xs-right pt-s">
-                                <!-- <input type="submit" class="btn btn-primary submit" value="SEND MESSAGE"> -->
                                 <button class="btn btn-primary submit">
-                                    SEND MESSAGE
+                                    SEND MESSAGE &nbsp;
+                                    <i class="fa fa-paper-plane"></i>
                                 </button>                                
                             </div>
                         </form>
@@ -71,4 +69,38 @@
 @stop
 
 @section('scripts')
+    $('#gform').on('submit', function(e) {
+        if($(this).find('button').hasClass('btn-loading')){
+            return false;
+        }
+
+        // ui
+        $(this).find('button').addClass('btn-loading');
+        $(this).find('button').find('.fa').removeClass('fa-paper-plane');
+        $(this).find('button').find('.fa').addClass('fa-circle-o-notch fa-spin');
+
+        // ajax 
+        var form = $(this);
+        $.ajax({ 
+             url   : form.attr('action'),
+             type  : form.attr('method'),
+             data  : form.serialize(),
+             success: function(response){
+                // show message
+
+
+                // clear inputs
+                $('#name').val('');
+                $('#email').val('');
+                $('#message').val('');
+
+                // reset to initial state
+                $('#gform').find('button').removeClass('btn-loading');
+                $('#gform').find('button').find('.fa').removeClass('fa-circle-o-notch fa-spin');        
+                $('#gform').find('button').find('.fa').addClass('fa-paper-plane');
+             }
+        });
+        
+        return false;
+     });
 @stop
