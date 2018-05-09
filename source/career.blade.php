@@ -5,7 +5,7 @@
 	@include('_partials/paralax', [
 		'name' 		=> 'portofolio',
         'url'       => '/images/career.jpg',
-        'title'     => 'CAREER',
+        'title'     => 'Pilih  Pekerjaan  Yang  Selalu  Membuat  Anda  Melakukan  Yang  Terbaik',
         'title_color' => 'white',
         'subtitle'  => ' ',
         'subtitle_color' => 'white',
@@ -16,21 +16,34 @@
     @include('_partials/panel_career', [
         'jobs'  =>  [
                         '0'     =>  [
-                                        'title'      => 'Senior UX Developer',
+                                        'title'      => 'Web  Developer ',
                                         'location'   => 'Malang, Indonesia',
                                         'contents'   => [
-                                                            'duties'     => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-                                                            'requirement' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-                                                            'qualified_applicants' => 'Please Contact: hr@thunderlab.id'
+                                                            'KUALIFIKASI :'     => '
+                                                            <ul>
+                                                                <li>Pria/Wanita,  usia  maksimal  40  tahun  saat  mengajukan  lamaran  </li>
+                                                                <li>Pendidikan  minimal  D3  dan  S1  jurusan  Teknik  Informatika/Teknik  Komputer  maupun  bidang  terkait  </li>
+                                                                <li>Menguasai  PHP,Mysql,  HTML  </li>
+                                                                <li>Menguasai  Laravel  merupakan  nilai  plus  </li>
+                                                                <li>Dapat  bekerjasama  dalam  tim  dan  sesuai  deadline  </li>
+                                                                <li>Penempatan  di  area  Malang  </li>
+                                                            </ul> ',
+                                                            'qualified_applicants' => 'Kirim  CV,  Surat  lamaran  dan  fortofolio  ke  email  : hr@thunderlab.id'
                                                         ]
                                     ],   
                         '1'     =>  [
-                                        'title'      => 'Senior UI Developer',
+                                        'title'      => 'Mobile  Developer ',
                                         'location'   => 'Malang, Indonesia',
                                         'contents'   => [
-                                                            'duties'     => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-                                                            'requirement' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-                                                            'qualified_applicants' => 'Please Contact: hr@thunderlab.id'
+                                                            'KUALIFIKASI :'     => '
+                                                            <ul>
+                                                                <li>Pria/Wanita,  usia  maksimal  40  tahun  saat  mengajukan  lamaran  </li>
+                                                                <li>Pendidikan  minimal  D3  dan  S1  jurusan  Teknik  Informatika/Teknik  Komputer  maupun  bidang  terkait  </li>
+                                                                <li>Menguasai  Android  (Java)  maupun  IOS  App    </li>
+                                                                <li>Dapat  bekerjasama  dalam  tim  dan  sesuai  deadline  </li>
+                                                                <li>Penempatan  di  area  Malang  </li>
+                                                            </ul> ',
+                                                            'qualified_applicants' => 'Kirim  CV,  Surat  lamaran  dan  fortofolio  ke  email  : hr@thunderlab.id'
                                                         ]
                                     ],                     
                     ]

@@ -5,7 +5,7 @@
 	@include('_partials/paralax', [
 		'name' 		=> 'portofolio',
         'url'       => '/images/contact.jpg',
-        'title'     => 'CONTACT US',
+        'title'     => 'Stay  Connect  with  Us',
         'title_color' => 'white',
         'subtitle'  => ' ',
         'subtitle_color' => 'white',
@@ -32,9 +32,9 @@
                                 <strong>Sorry, </strong> an error occured when processing your message. Please try again or contact us directly.
                             </div>                                                      
                             <div class="mb-l">
-                                <h5>Get in Touch</h5>
+                                <h5>Hubungi  kami  kapapun </h5>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    Kami  berkomitmen  dalam  memberikan  layanan  yang  terbaik  dan  professional  untuk  Anda.  Thunderlabs  memastikan  bahwa  apapun  yang  Anda  butuhkan  akan  segera  terlayani  dengan  menghubungi  kami.
                                 </p>
                             </div>
     	                    <div class="form-group">
@@ -56,18 +56,19 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                     	<h5 class="mb-m">Contact Info</h5>
-                    	<h5>Address</h5>
+                    	<h5>Office  Location</h5>
                     	<p>
-                    		Pondok Belimbing indah tengah V</br>
-                    		Blok B8 No 05, Araya - Malang
+                    		Vernon  Building<br>
+                            Jl.  Letjen  Sutoyo  102,  Blimbing,  Malang
+                            65141
                     	</p>
-                    	<h5>Postal Code</h5>
+                    	{{-- <h5>Postal Code</h5>
                     	<p>
                     		65126
-                    	</p>
+                    	</p> --}}
                     	<h5>Phone</h5>
                     	<p>
-                    		+62 341 1888
+                    		0341  -  4377502
                     	</p>                    	
                     </div>
                 </div>

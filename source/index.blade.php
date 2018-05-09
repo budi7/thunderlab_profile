@@ -61,19 +61,19 @@
         'url'       => '/images/testimonial.jpg',
         'content'   =>  [
                             0   =>  [
-                                        'content'   => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                                        'name'      => 'John Dory',
-                                        'company'   => 'CEO Lipsum'
+                                        'content'   => 'Well  wrapped  technology  is  powerful  "Bunshin  No  Jutsu"',
+                                        'name'      => 'Chelsy  Mooy',
+                                        'company'   => 'Thunderlab  Director'
                                     ],
                             1   =>  [
-                                        'content'   => '2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                                        'name'      => 'John Dory',
-                                        'company'   => 'CEO Lipsum'
+                                        'content'   => 'Your  time  is  limited  so  dont  waste  it  doing   "Unnecessary  Hassle"  thing',
+                                        'name'      => 'Budi  Purnomo',
+                                        'company'   => 'System  Developer  Thunderlab'
                                     ],
                             2   =>  [
-                                        'content'   => '2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                                        'name'      => 'John Dory',
-                                        'company'   => 'CEO Lipsum'
+                                        'content'   => 'Technology  brings  you  happier  experience',
+                                        'name'      => 'Agil  Mahendra',
+                                        'company'   => 'UI  Developer  Thunderlab'
                                     ],                                    
                         ],
     ])
