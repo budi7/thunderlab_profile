@@ -30,12 +30,12 @@
             <div class="panel-section">
                 <div class="row pb-s">
                     <div class="col-md-12 text-xs-center">
-			            <img src="/images/logo_tube.png" alt="thunderlab.id" class="logo">
+			            <img src="/images/logo.png" alt="thunderlab.id" class="logo">
 		        	</div>
 	        	</div>
                 <div class="row pt-xl">
                     <div class="col-md-12 text-xs-center">
-                    	<a class="social" href="#">
+                    	<a class="social" href="https://www.instagram.com/thunderlab.id/?hl=id">
                     		<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                     	</a>
                     	<a class="social" href="#">

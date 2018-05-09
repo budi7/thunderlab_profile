@@ -1,6 +1,6 @@
 <nav class="navbar navbar-fixed-top navbar-dark">
 	<div class="container-fluid">
-	  	<a class="navbar-brand" href="#">
+	  	<a class="navbar-brand" href="/">
 	    	<img src="/images/logo.png" alt="Thunderlab Indonesia">
 	  	</a>
 		<button class="navbar-toggler custom-navbar-breakpoint float-xs-right" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
