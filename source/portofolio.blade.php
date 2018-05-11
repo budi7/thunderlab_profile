@@ -20,62 +20,62 @@
                     'datas' =>  [
                                     0   =>  [
                                                 'name'  => 'Gopego.com',
-                                                'img'   => '/images/gopego_background.jpg',
+                                                'img'   => '/images/logo-gopego.png',
                                                 'url'   => 'gopego.com',
                                             ],
                                     1   =>  [
                                                 'name'  => 'Tamasyahati',
-                                                'img'   => '/images/capcus_background.jpg',
+                                                'img'   => '/images/tamasyahati-logo-full.png',
                                                 'url'   => 'capcus.id',
                                             ],   
                                     2   =>  [
-                                                'name'  => 'Polimoli',
-                                                'img'   => '/images/balin_background.jpg',
+                                                'name'  => 'Reliance',
+                                                'img'   => '/images/reliance.png',
                                                 'url'   => 'balin.id',
                                             ],
                                     3   =>  [
-                                                'name'  => 'Reliance',
-                                                'img'   => '/images/gopego_background.jpg',
+                                                'name'  => 'Polimoli',
+                                                'img'   => '/images/logo-polimoli.png',
                                                 'url'   => 'gopego.com',
                                             ],
                                     4   =>  [
                                                 'name'  => 'Nissan',
-                                                'img'   => '/images/capcus_background.jpg',
+                                                'img'   => '/images/Nissan_logo.png',
                                                 'url'   => 'capcus.id',
                                             ],   
                                     5   =>  [
                                                 'name'  => 'Telkomsel',
-                                                'img'   => '/images/balin_background.jpg',
+                                                'img'   => '/images/logo_lintas.jpg',
                                                 'url'   => 'balin.id',
                                             ],
                                     6   =>  [
                                                 'name'  => 'Nokia',
-                                                'img'   => '/images/gopego_background.jpg',
+                                                'img'   => '/images/nokia.png',
                                                 'url'   => 'gopego.com',
                                             ],
                                     7   =>  [
                                                 'name'  => 'Ali  Express',
-                                                'img'   => '/images/capcus_background.jpg',
+                                                'img'   => '/images/gantirugi-teknologi.png'        ,
                                                 'url'   => 'capcus.id',
                                             ],   
                                     8   =>  [
                                                 'name'  => 'Lintas  berita',
-                                                'img'   => '/images/balin_background.jpg',
+                                                'img'   => '/images/ali_express.png',
                                                 'url'   => 'balin.id',
                                             ],
                                     9   =>  [
                                                 'name'  => 'Balin',
-                                                'img'   => '/images/gopego_background.jpg',
+                                                'img'   => '/images/logo-balin.png',
                                                 'url'   => 'gopego.com',
                                             ],
                                     10   =>  [
                                                 'name'  => 'Gantirugi',
-                                                'img'   => '/images/capcus_background.jpg',
+                                                'img'   => '/images/telkomsel.png',
                                                 'url'   => 'capcus.id',
                                             ],   
                                     11   =>  [
                                                 'name'  => 'Gokredit',
-                                                'img'   => '/images/balin_background.jpg',
+                                                'img'   => '/images/logo-gokredit.png',
                                                 'url'   => 'balin.id',
                                             ],
 

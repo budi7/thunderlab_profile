@@ -35,6 +35,7 @@
             </div>
         </div>
     </div>
+@stop
 
 @section('header_about')
 	active
